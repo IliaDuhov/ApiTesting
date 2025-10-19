@@ -22,7 +22,7 @@ public class Tests {
 
     @Test
     public void checkUniqueAvatarFileNames(){
-        //installSpec(requestSpecification(),responseSpecification200());
+        installSpec(requestSpecification(),responseSpecification200());
         List<UserDto> users = given()
                 .when()
                 .get("/api/users?page=2")
@@ -141,7 +141,7 @@ public class Tests {
 
     @Test
     public void jenkinsTest(){
-
+        System.out.println("WE ARE IN JENKINS BRANCH");
     }
 
 }
