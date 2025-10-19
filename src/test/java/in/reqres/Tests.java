@@ -2,6 +2,7 @@ package in.reqres;
 
 
 import data.*;
+import groovy.json.JsonOutput;
 import helpers.DataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -137,4 +138,10 @@ public class Tests {
         }
         Assert.assertEquals(count, tagCount, "найдено тэгов: " + count + " ожидалось найти: " + tagCount);
     }
+
+    @Test
+    public void jenkinsTest(){
+        System.out.println("WE ARE IN JENKINS TEST BRANCH");
+    }
+
 }
