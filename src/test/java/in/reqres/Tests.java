@@ -141,7 +141,7 @@ public class Tests {
 
     @Test
     public void jenkinsTest(){
-        System.out.println("WE ARE IN JENKINS TEST BRANCH");
+        System.out.println("/-----------------WE ARE IN JENKINS TEST BRANCH--------------------/");
     }
 
 }
